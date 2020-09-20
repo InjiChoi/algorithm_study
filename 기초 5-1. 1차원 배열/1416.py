@@ -12,3 +12,4 @@ r_list.reverse()
 for a in r_list:
     print(a, end='')
 
+# print(str(bin(int(input())))[2:])
