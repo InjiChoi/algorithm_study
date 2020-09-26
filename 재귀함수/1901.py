@@ -1,3 +1,4 @@
+# 1부터 n까지 출력하기
 num = int(input())
 
 def recursion_print(n):
