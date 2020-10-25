@@ -14,11 +14,11 @@ def merge_sort(left, right):
 			right_index += 1
 
 	while left_index < len(left):
-		merged.append(left_index)
+		merged.append(left[left_index])
 		left_index += 1
 
 	while right_index < len(right):
-		merged.append(right_index)
+		merged.append(right[right_index])
 		right_index += 1
 
 	return merged
@@ -34,6 +34,4 @@ def split(data):
 
     return merge_sort(left, right)
 
-
-a = [26, 27, 42, 10, 14, 19, 35, 20]
-print(split(a))
+# time complexity = n * logn
